@@ -26,8 +26,8 @@ print('Predicted :', classifier.predict(X), '\nReal class :', y)
 
 # 4 - Prediction for a video dataset
 
-classifier.load('weights/Meso4_F2F.h5')
+# classifier.load('weights/Meso4_F2F.h5')
 
-predictions = compute_accuracy(classifier, 'test_videos')
-for video_name in predictions:
-    print('`{}` video class prediction :'.format(video_name), predictions[video_name][0])
+# predictions = compute_accuracy(classifier, 'test_videos')
+# for video_name in predictions:
+#     print('`{}` video class prediction :'.format(video_name), predictions[video_name][0])
